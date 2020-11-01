@@ -1,0 +1,20 @@
+stages:
+  - build
+  - test
+ 
+build:
+  stage: build
+  script:
+    - cd ./carservice-sprinboot-backend
+    -  mvn $MAVEN_CLI_OPTS compile
+ 
+test:
+  stage: test
+  dependencies:
+    - build
+  script:
+    - cd ./carservice-sprinboot-backend
+    - mvn $MAVEN_CLI_OPTS test
+ 
+after_script:
+  - echo "End CI"
