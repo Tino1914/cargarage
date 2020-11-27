@@ -8,14 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
-import org.springframework.validation.annotation.Validated;
+
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.HashMap;
+
 import java.util.List;
-import java.util.Map;
+
 
 @RestController
 @RequestMapping("/api/client")
@@ -49,12 +48,12 @@ public class ClientController {
     }
 
     @GetMapping("/all")
-    public Iterable<Client> getAllClients(){return  clientService.findAllClients();
+    public List<Client> getAllClients(){return  clientService.findAllClients();
     }
     @DeleteMapping("/{clientID}")
     public ResponseEntity<?> deleteClient(@PathVariable String clientID){
         clientService.deleteClientByIdentifier(clientID);
-        return new ResponseEntity<String>("Client was succesfully deleted", HttpStatus.OK);
+        return new ResponseEntity<String>("Client was successfully deleted", HttpStatus.OK);
     }
 
 

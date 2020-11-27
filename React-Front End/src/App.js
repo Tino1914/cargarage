@@ -11,6 +11,9 @@ import { render } from '@testing-library/react';
 import { Provider } from "react-redux";
 import store from "./store";
 import UpdateClient from './components/Client/UpdateClient';
+import ClientBoard from './components/ClientBoard/ClientBoard';
+import AddCar from './components/ClientBoard/Cars/AddCar';
+
 
 
 class App extends Component {
@@ -25,6 +28,8 @@ class App extends Component {
 
       <Route exact path="/addClient" component={AddClient} />
       <Route exact path="/updateClient/:id" component={UpdateClient} />
+      <Route exact path="/clientBoard/:id" component={ClientBoard} />
+      <Route exact path="/addCar/:id" component={AddCar} />
     
     
     </div>

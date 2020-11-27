@@ -20,6 +20,7 @@ class Dashboard extends Component {
     render() {
        const {clients} = this.props.client;
         return (
+            <body className="dashboard">
             <div className="projects">
             <div className="container">
                 <div className="row">
@@ -43,6 +44,7 @@ class Dashboard extends Component {
                 </div>
             </div>
         </div>
+        </body>
     
         );
     }

@@ -1,10 +1,11 @@
 import axios from "axios";
+import authHeader from "../services/auth-header";
 import { GET_ERRORS, GET_CLIENTS, GET_CLIENT, DELETE_CLIENT } from "./types";
 
 
 export const createClient = (client, history) => async dispatch => {
     try {
-        const res = await axios.post("http://localhost:8080/api/client", client)
+        await axios.post("/api/client", client, { headers: authHeader() });
         history.push("/dashboard");
         dispatch({
             type: GET_ERRORS,
@@ -21,7 +22,7 @@ export const createClient = (client, history) => async dispatch => {
 
 
 export const getClients = () => async dispatch => {
-    const res = await axios.get("http://localhost:8080/api/client/all")
+    const res = await axios.get("/api/client/all", { headers: authHeader() })
     dispatch({
         type: GET_CLIENTS,
         payload: res.data
@@ -33,7 +34,7 @@ export const getClients = () => async dispatch => {
 export const getClient = (id, history) => async dispatch => {
 
    try {
-    const res = await axios.get(`http://localhost:8080/api/client/${id}`)
+    const res = await axios.get(`/api/client/${id}`, { headers: authHeader() })
     dispatch({
         type: GET_CLIENT,
         payload: res.data
@@ -50,9 +51,16 @@ export const getClient = (id, history) => async dispatch => {
 
 
 export const deleteClient = id => async dispatch => {
-    await axios.delete(`http://localhost:8080/api/client/${id}`)
+   if(window.confirm("Are you sure you want to delete this client and his information"
+   )
+   ){
+    await axios.delete(`/api/client/${id}`, { headers: authHeader() })
     dispatch({
         type: DELETE_CLIENT,
         payload: id
     });
+   }
+
+
+  
 }

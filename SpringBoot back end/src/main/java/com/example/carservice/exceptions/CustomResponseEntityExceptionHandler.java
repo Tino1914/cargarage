@@ -13,9 +13,17 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class CustomResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler
-    public final ResponseEntity<Object> handlerClientIdException(ClientIdException ex, WebRequest request){
+    public final ResponseEntity<Object> handleClientIdException(ClientIdException ex, WebRequest request){
         ClientIdException exceptionResponse = new ClientIdException(ex.getMessage());
         return  new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
     }
+
+
+    @ExceptionHandler
+    public final ResponseEntity<Object> handleClientNotFoundException(ClientNotFoundException ex, WebRequest request){
+        ClientNotFoundExceptionResponse exceptionResponse = new ClientNotFoundExceptionResponse(ex.getMessage());
+        return  new ResponseEntity(exceptionResponse, HttpStatus.BAD_REQUEST);
+    }
+
 
 }
