@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b599058d-345b-4d22-8cc6-1a519f0833e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/domain/Backlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/exceptions/ClientNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/exceptions/ClientNotFoundExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/models/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/payload/request/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/BacklogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/services/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/web/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/web/BacklogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/carservice/domain/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documentation/Project plan.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentation/Project plan.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/domain/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/domain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/exceptions/CustomResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/exceptions/CustomResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carservice/web/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carservice/web/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/carservice/CarserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/carservice/CarserviceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Tino\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jvDfh50myrjWjNik6w4coWD48C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../GitHubGroupProject/S3-CB03-Group3/S3-CB03-Group3/PAAS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.carservice.domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.carservice.web" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CarserviceApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carservice.domain.ClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.getFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carservice.domain.ClientTest" />
+      <option name="METHOD_NAME" value="getFirstName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.setFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carservice.domain.ClientTest" />
+      <option name="METHOD_NAME" value="setFirstName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.setId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carservice.domain.ClientTest" />
+      <option name="METHOD_NAME" value="setId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.setPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.carservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.carservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.example.carservice.domain.ClientTest" />
+      <option name="METHOD_NAME" value="setPhone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="carservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.carservice.CarserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientTest.setPhone" />
+        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="JUnit.ClientTest.setFirstName" />
+        <item itemvalue="JUnit.ClientTest.getFirstName" />
+        <item itemvalue="JUnit.ClientTest.setId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b599058d-345b-4d22-8cc6-1a519f0833e4" name="Default Changelist" comment="" />
+      <created>1604675778581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604675778581</updated>
+      <workItem from="1604675779657" duration="1535000" />
+      <workItem from="1604698977953" duration="1986000" />
+      <workItem from="1604703134661" duration="132000" />
+      <workItem from="1604868818244" duration="594000" />
+      <workItem from="1605093320377" duration="690000" />
+      <workItem from="1605182477688" duration="2079000" />
+      <workItem from="1605792233070" duration="4165000" />
+      <workItem from="1606164621520" duration="153000" />
+      <workItem from="1606165054252" duration="60443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1606404543010">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606399743300" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606221924974" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1606404543010" />
+    <state x="424" y="209" width="431" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606403269925">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="209" width="431" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606170258965" />
+    <state x="424" y="209" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606222558377" />
+    <state x="424" y="209" width="431" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1606403269925" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606402741129">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606402741129" />
+    <state x="371" y="87" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1606405476186">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606405476186" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1606429161231">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606429161231" />
+    <state x="3192" y="145" key="FileChooserDialogImpl/0.0.1280.680/2560.0.1920.1040@2560.0.1920.1040" timestamp="1605826122298" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606302476934" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605530732954" />
+    <state width="1238" height="357" key="GridCell.Tab.0.bottom" timestamp="1606475185170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.0.bottom/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497525" />
+    <state width="1238" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185170" />
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.0.center" timestamp="1606475185170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.0.center/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497522" />
+    <state width="1238" height="357" key="GridCell.Tab.0.center/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185170" />
+    <state width="1238" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.0.left" timestamp="1606475185170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.0.left/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497519" />
+    <state width="1238" height="357" key="GridCell.Tab.0.left/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185170" />
+    <state width="1238" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606407574972" />
+    <state width="1238" height="357" key="GridCell.Tab.0.right" timestamp="1606475185170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.0.right/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497523" />
+    <state width="1238" height="357" key="GridCell.Tab.0.right/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185170" />
+    <state width="1238" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.1.bottom" timestamp="1606475185171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.1.bottom/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497526" />
+    <state width="1238" height="357" key="GridCell.Tab.1.bottom/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185171" />
+    <state width="1238" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.1.center" timestamp="1606475185171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.1.center/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497526" />
+    <state width="1238" height="357" key="GridCell.Tab.1.center/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185171" />
+    <state width="1238" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.1.left" timestamp="1606475185171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.1.left/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497526" />
+    <state width="1238" height="357" key="GridCell.Tab.1.left/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185171" />
+    <state width="1238" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state width="1238" height="357" key="GridCell.Tab.1.right" timestamp="1606475185171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="8" key="GridCell.Tab.1.right/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606426497526" />
+    <state width="1238" height="357" key="GridCell.Tab.1.right/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606475185171" />
+    <state width="1238" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606407574974" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1604699578137">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1604699578137" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604699554719">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1604699554719" />
+    <state x="405" y="24" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606393272182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="405" y="24" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/2560.0.1920.1040@0.0.1280.680" timestamp="1606393272182" />
+    <state x="303" y="2" key="search.everywhere.popup" timestamp="1606471613698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="2" key="search.everywhere.popup/0.0.1280.680/2560.0.2048.1112@0.0.1280.680" timestamp="1606471613698" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+com\example\carservice\exceptions\ClientIdExceptionResponse.class
+com\example\carservice\exceptions\CustomResponseEntityExceptionHandler.class
+com\example\carservice\web\ClientController.class
+com\example\carservice\domain\Car.class
+com\example\carservice\exceptions\ClientIdException.class
+com\example\carservice\domain\Client.class
+com\example\carservice\services\MapValidationService.class
+com\example\carservice\services\ClientService.class
+com\example\carservice\repositories\ClientRepository.class
+com\example\carservice\CarserviceApplication.class
