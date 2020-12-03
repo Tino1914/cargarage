@@ -49,6 +49,9 @@ import BoardAdmin from "../Auth/board-admin-component";
                 
                 <nav className="navbar navbar-expand-sm navbar navbar-dark bg-dark">
                 <div className="container">
+                <a class="logo" href="/dashboard">
+          <img src="Image/logo1.jpg"  class="image-responsive"  alt=""/>
+                        </a>
                     <a className="navbar-brand" href="Dashboard.html">
                        Car Service Garage
                     </a>

@@ -23,7 +23,7 @@ sonarqube:
    - test
  script:
    - cd ./carservice-sprinboot-backend
-   - mvn verify sonar:sonar -Dsonar.qualitygate.wait=true
+   - mvn verify sonar:sonar "-Dsonar.qualitygate=true" 
 
 after_script:
   - echo "End CI"

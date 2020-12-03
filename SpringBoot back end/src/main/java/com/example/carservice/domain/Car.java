@@ -58,55 +58,62 @@ public class Car {
         return id;
     }
 
-    public void setId(Long id) {
+    public Car setId(Long id) {
         this.id = id;
+        return this;
     }
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
+    public Car setModel(String model) {
         this.model = model;
+        return this;
     }
     public String getLicensePlate() {
         return licensePlate;
     }
 
-    public void setLicensePlate(String licensePlate) {
+    public Car setLicensePlate(String licensePlate) {
         this.licensePlate = licensePlate;
+        return this;
     }
 
     public String getEngine() {
         return engine;
     }
 
-    public void setEngine(String engine) {
+    public Car setEngine(String engine) {
         this.engine = engine;
+        return this;
     }
 
     public String getCarSequence() {
         return carSequence;
     }
 
-    public void setCarSequence(String carSequence) {
+    public Car setCarSequence(String carSequence) {
         this.carSequence = carSequence;
+        return this;
     }
 
     public String getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public Car setStatus(String status) {
         this.status = status;
+        return this;
     }
 
     public Integer getPriority() {
         return priority;
     }
 
-    public void setPriority(Integer priority) {
+    public Car setPriority(Integer priority) {
         this.priority = priority;
+        return this;
     }
 
     public Date getDueDate() {
@@ -121,8 +128,9 @@ public class Car {
         return carIdentifier;
     }
 
-    public void setCarIdentifier(String carIdentifier) {
+    public Car setCarIdentifier(String carIdentifier) {
         this.carIdentifier = carIdentifier;
+        return this;
     }
 
     public Date getCreated_At() {

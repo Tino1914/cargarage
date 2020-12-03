@@ -15,25 +15,26 @@ import { deleteClient } from "../../actions/clientActions"
     render() {
         const { client } = this.props;
         return (
+           
             <div className="container">
-            <div className="card card-body bg-light mb-3">
+            <div className="card card-body bg-info mb-3">
                 <div className="row">
                     <div className="col-2">
-                        <span className="mx-auto">{client.clientIdentifier}</span>
+                        <span className="mx-auto">ID: {client.clientIdentifier}</span>
                     </div>
                     <div className="col-lg-6 col-md-4 col-8">
-                        <h3>{client.firstName}</h3>
-                        <p>{client.phone}</p>
+                        <h3>{client.firstName} {client.lastName}</h3>
+                        <p>Phone number: {client.phone}</p>
                     </div>
                     <div className="col-md-4 d-none d-lg-block">
                         <ul className="list-group">
                             <Link to={`/clientBoard/${client.clientIdentifier}`}>
-                                <li className="list-group-item board">
+                                <li className="list-group-item list-group-item-secondary">
                                     <i className="fa fa-flag-checkered pr-1">Client Board </i>
                                 </li>
                             </Link>
                             <Link to={`/updateClient/${client.clientIdentifier}`}>
-                                <li className="list-group-item update">
+                                <li className="list-group-item list-group-item-secondary">
                                     <i className="fa fa-edit pr-1">Update Client Info</i>
                                 </li>
                             </Link>
@@ -47,6 +48,7 @@ import { deleteClient } from "../../actions/clientActions"
                 </div>
             </div>
         </div>
+       
         )
     }
 }

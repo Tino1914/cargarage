@@ -151,7 +151,7 @@ onSubmit(e){
                         </div>
                           
                         
-                            <h6>User Name</h6>
+                            <h6 className="text-light bg-dark">User Name</h6>
                             <div className="form-group">
                             <input type="text" className={classnames("form-control form-control-lg", {
                                 "is-invalid": errors.userName
@@ -165,7 +165,7 @@ onSubmit(e){
                             }
                            
                             </div>
-                            <h6>Password</h6>
+                            <h6 className="text-light bg-dark">Password</h6>
                             <div className="form-group">
                             <input type="password" className={classnames("form-control form-control-lg", {
                                 "is-invalid": errors.password

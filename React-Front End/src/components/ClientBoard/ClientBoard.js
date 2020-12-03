@@ -21,6 +21,7 @@ import {getBacklog} from "../../actions/backlogActions";
             <div>
             <br></br>
             
+            <div className="carsbackground">
     <div className="container">
     
     <Link to={`/addCar/${id}`} className="btn btn-secondary mb-5">
@@ -31,6 +32,7 @@ import {getBacklog} from "../../actions/backlogActions";
     <hr />
     <Backlog cars_prop={cars}/>
    
+    </div>
     </div>
     </div>
         );
