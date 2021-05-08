@@ -1,0 +1,45 @@
+stages:
+  - build
+  - test
+  - sonarqube
+  - deploy
+ 
+build:
+  stage: build
+  script:
+    - cd ./carservice-sprinboot-backend
+    -  mvn $MAVEN_CLI_OPTS compile
+ 
+test:
+  stage: test
+  dependencies:
+    - build
+  script:
+    - cd ./carservice-sprinboot-backend
+    - mvn $MAVEN_CLI_OPTS test
+ 
+sonarqube:
+ stage: sonarqube
+ dependencies:
+   - test
+ script:
+   - cd ./carservice-sprinboot-backend
+   - mvn verify sonar:sonar "-Dsonar.qualitygate=true"
+ allow_failure: true
+
+
+deploy:
+  stage: deploy
+  dependencies:
+    - test
+  script:
+    - pwd
+    - docker build -t carservice -f Dockerfile . #building the image
+    - docker run --rm -p 8080:8080 carservice #running the docker; --rm - deleting a container every time after a crash or stop
+
+
+
+
+
+after_script:
+  - echo "End CI"
